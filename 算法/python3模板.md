@@ -1,3 +1,6 @@
+#### 输入输出
+
+```python
 #输入输出。
 import sys 
 for line in sys.stdin:
@@ -14,4 +17,10 @@ while True:
 #python3里还是多用input，方便点。
 #input 会把末尾的换行符去掉
 #input要在外围包一个try excpet 防止eof异常
+
+# 简单的处理：
+list_a = [int(i) for i in input().split(' ')]
+
+
+```
 
