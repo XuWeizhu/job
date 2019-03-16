@@ -41,5 +41,8 @@
         "nim": "nim compile --verbosity:0 --hints:off --run",
         "lisp": "sbcl --script"
     },
-    "code-runner.runInTerminal": true
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+        "fstream": "cpp"
+    }
 }

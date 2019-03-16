@@ -1,19 +1,30 @@
 #include<iostream>
 #include<string>
 #include <fstream>
+#include <vector>
 using namespace std;
 
 int main(){
-    int n;
-    ifstream fin("input_string");
-
-    fin >> n;
+    ifstream fin("sort");
+    int length = 0;
+    int tmp;
+    fin >> length;
     fin.get();
-    string str;
-    while(n--){
-        getline(fin, str); 
-        cout << str << endl;
+    
+    vector<int> str_random, str_sorted;
+    for(int i = 0;i<length;++i){
+        fin >> tmp;
+        str_random.push_back(tmp);
     }
+    fin.get();
+    for(int i = 0;i<length;++i){
+        fin >> tmp;
+        str_sorted.push_back(tmp);
+    }
+
+    
+
+
     fin.close();
     return 0;
 }
