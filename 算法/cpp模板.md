@@ -1,5 +1,7 @@
 ### 基础操作
 
+[ref1](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese)
+
 #### 输入输出
 
 ```C++
@@ -13,6 +15,69 @@ int main() {
     while(cin >> a >> b)//注意while处理多个case
         cout << a+b << endl;
 }
+
+//不说明有多少个 Input，以 EOF 为结束标志
+int a, b;
+while (cin >> a >> b) {
+    // ...
+}
+
+//输入不说明有多少个 Input，以某个特殊输入为结束标志
+// 示例 1
+int a, b;
+while (cin >> a >> b) {
+    if (a == 0 && b == 0)
+        break;
+    // ...
+}
+// 示例 2
+int n;
+while (cin >> n && n != 0) {
+    // ...
+}
+
+//指示有 N 个 Input
+int n;
+cin >> n;
+
+int a, b;
+while(n--) {
+    cin >> a >> b;
+}
+
+//输入是一整行（包括空格）
+
+//用 char[] 接收（C/C++）
+const int MAXN = 1000;
+char buff[MAXN];
+cin.getline(buff, MAXN);  // 第三个参数默认是 '\n'
+cin.getline(buff, MAXN, '\n');
+//用 string 接收（C++）
+string s;
+getline(cin, s);          // 第三个参数默认是 '\n'
+getline(cin, s, '\n');
+
+//输入是多行（包括空格）
+int n;
+cin >> n;
+cin.get();  // 否则，n 也会计入下面的 getline()，导致少一组数据
+
+while (n--) {
+    string s;
+    getline(cin, s);
+}
+
+//从文件读取
+ifstream fin("in.txt");
+ofstream fout("out.txt");
+
+int a, b;
+while (fin >> a >> b) {
+    fout << a + b << endl;
+}
+
+fin.close();
+fout.close();
 ```
 
 #### 直接使用各种结构
