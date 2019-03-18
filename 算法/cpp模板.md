@@ -87,7 +87,10 @@ fout.close();
 ```C++
 //堆
 //队列
-//
+//vector
+vector.size()//大小
+vector.empty()//判断是否为空
+vector<int>::iterator iterint;
 
 ```
 

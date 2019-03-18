@@ -1,8 +1,9 @@
 import random
 
-length = 10
-begin = -10
-end = 10
+sett = 15
+length = sett
+begin = -1*sett
+end = sett
 
 list_out = []
 
