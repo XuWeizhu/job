@@ -384,3 +384,4 @@ string.atoi(s[,base])
 \#base默认为10，如果为0,那么s就可以是012或0x23这种形式的字符串，如果是16那么s就只能是0x23或0X12这种形式的字符串 
 string.atol(s[,base]) #转成long 
 string.atof(s[,base]) #转成float
+
