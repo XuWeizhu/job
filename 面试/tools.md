@@ -4,3 +4,5 @@
 
 [删除本地库之后如何从远程库恢复文件](https://blog.csdn.net/ffscript/article/details/74450821)
 
+[这个也可以](https://blog.csdn.net/iefreer/article/details/7679631)
+
