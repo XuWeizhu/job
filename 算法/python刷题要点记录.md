@@ -1,6 +1,6 @@
-### python处理字符串
+#### python处理字符串
 
-#### 字符串读取：
+##### 字符串读取：
 
 - 读取原始字符串：
 
@@ -22,11 +22,17 @@ line = raw_input()
 sn = list(map(int,input('Please input some numbers:\n').split()))#python3
 sn = list(float(x) for x in line.split())
 #将输入的带空格数字字符转换为int型数字
+#我一般这么处理:
+sample = [int(i) for i in input().split(' ')]
 ```
 
+---
 
 
-#### 字符串内建方法：
+
+#### 其他整理
+
+##### 字符串内建方法：
 
 ##### 1、去空格及特殊符号
 

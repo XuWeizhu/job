@@ -1,8 +1,8 @@
-### 基础操作
+#### 基础操作
 
 [ref1](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese)
 
-#### 输入输出
+##### 输入输出
 
 ```C++
 //输入输出
@@ -80,9 +80,7 @@ fin.close();
 fout.close();
 ```
 
-
-
-#### 直接使用各种结构
+##### 直接使用各种结构
 
 ```C++
 //堆
@@ -94,11 +92,9 @@ vector<int>::iterator iterint;
 
 ```
 
+#### 一些骚操作
 
-
-### 一些骚操作
-
-#### IOU:交并比的计算:
+##### IOU:交并比的计算:
 
 ```c++
 #include <vector>
