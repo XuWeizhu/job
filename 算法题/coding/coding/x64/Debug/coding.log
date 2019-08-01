@@ -1,0 +1,8 @@
+﻿  coding.cpp
+  inputModel.cpp
+  sort.cpp
+c:\users\t-weixu\desktop\interview\job\算法题\coding\coding\sort.cpp(116): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t-weixu\desktop\interview\job\算法题\coding\coding\sort.cpp(133): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t-weixu\desktop\interview\job\算法题\coding\coding\sort.cpp(150): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  coding.vcxproj -> C:\Users\t-weixu\Desktop\interview\job\算法题\coding\x64\Debug\coding.exe

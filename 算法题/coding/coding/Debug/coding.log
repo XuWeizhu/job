@@ -1,0 +1,10 @@
+﻿  coding.cpp
+  sort.cpp
+c:\users\t-weixu\desktop\interview\job\算法题\coding\coding\sort.cpp(43): warning C4018: '<': signed/unsigned mismatch
+c:\users\t-weixu\desktop\interview\job\算法题\coding\coding\sort.cpp(53): warning C4018: '<': signed/unsigned mismatch
+c:\users\t-weixu\desktop\interview\job\算法题\coding\coding\sort.cpp(62): warning C4018: '<': signed/unsigned mismatch
+c:\users\t-weixu\desktop\interview\job\算法题\coding\coding\sort.cpp(68): warning C4018: '<': signed/unsigned mismatch
+c:\users\t-weixu\desktop\interview\job\算法题\coding\coding\sort.cpp(74): warning C4018: '<': signed/unsigned mismatch
+c:\users\t-weixu\desktop\interview\job\算法题\coding\coding\sort.cpp(80): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  coding.vcxproj -> C:\Users\t-weixu\Desktop\interview\job\算法题\coding\Debug\coding.exe
