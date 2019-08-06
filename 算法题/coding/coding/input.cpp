@@ -1,2 +1,0 @@
-#include "inputHeader.h"
-//·½·¨
